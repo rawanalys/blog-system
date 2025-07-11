@@ -36,9 +36,13 @@ using **MySQL** as the backend and a modern, intuitive UI powered by **Bootstrap
 ### Edit your .env with your local DB credentials:
 
 CI_ENVIRONMENT = development
+
 database.default.hostname = localhost
+
 database.default.database = blog_sys
+
 database.default.username = root
+
 database.default.password = 
 
 ---
