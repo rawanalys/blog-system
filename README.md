@@ -16,40 +16,14 @@ using **MySQL** as the backend and a modern, intuitive UI powered by **Bootstrap
 
 ---
 
-## 📂 Project Structure
-app/
-├── Controllers/
-│   ├── Auth.php
-│   └── Post.php
-
-├── Models/
-│   ├── UserModel.php
-│   └── PostModel.php
-
-├── Views/
-│   ├── auth/           # login & registration pages
-│   ├── posts/          # create, edit, view
-│   ├── frontend/       # homepage, author pages
-│   └── dashboard.php   # admin dashboard
-
-public/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── fonts/
-│   └── logo.png
-.env.example            # sample env 
-
----
-
 ## 🛠️ Tech Stack
 
-# 🔧 Backend
+### 🔧 Backend
 	•	PHP 8+
 	•	CodeIgniter 4 – Lightweight MVC framework
 	•	MySQL – Relational database for storing users and blog posts
 
-# 🎨 Frontend
+### 🎨 Frontend
 	•	HTML5 & CSS3
 	•	Bootstrap 5 – Responsive UI components and layout
 	•	Summernote – WYSIWYG rich text editor for blog content
@@ -59,7 +33,7 @@ public/
 
 ## ⚙️ Setup Instructions (Local)
 
-# Edit your .env with your local DB credentials:
+### Edit your .env with your local DB credentials:
 
 CI_ENVIRONMENT = development
 database.default.hostname = localhost
