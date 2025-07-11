@@ -1,4 +1,5 @@
-use blog_sys;
+CREATE db blog_sys;
+USE blog_sys;
 CREATE TABLE users 
   (id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
@@ -13,8 +14,7 @@ CREATE TABLE posts
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE);
-
-use blog_sys;	
+USE blog_sys
 select * from users;
 select * from posts;
 
