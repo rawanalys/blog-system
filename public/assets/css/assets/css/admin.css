@@ -1,0 +1,159 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      margin: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: #fff;
+    }
+
+    .header .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: rgb(229, 47, 27);
+    }
+    
+    .logo-icon {
+      height: 40px;
+      width: auto;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      font-size: 16px;
+    }
+
+    .actions a {
+      color: #ff5722;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .btn-save {
+      background-color: #ff5722;
+      color: black;
+      font-weight: 500;
+      padding: 6px 18px;
+      font-size: 17px;
+      border-radius: 15px;
+      border: none;
+    }
+
+    .btn-save:hover {
+      background-color: rgb(250, 84, 34);
+    }
+
+    .main-container {
+      width: 100%;
+      padding: 40px 60px;
+    }
+
+    .form-title {
+      color:rgb(57, 56, 56);
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .form-control-title {
+      font-size: 16px;
+      padding: 7px;
+      width: 60%;
+      margin-bottom: 30px;
+      margin-left: 0;
+      background-color:rgb(240, 239, 239);
+    }
+
+    #editor {
+      width: 90%;
+    }
+
+    .btn-orange {
+      background-color: #ff5722;
+      color: black;
+      font-weight: 500;
+      padding: 8px 22px;
+      border-radius: 15px;
+      border: None;
+      font-size: 17px;
+    }
+
+    .btn-orange:hover {
+      background-color: rgb(250, 84, 34);
+    }
+
+    .content {
+      width: 100%;
+      padding: 60px 50px;
+      background-color: #fff;
+      font-size: 30px;
+    }
+
+    .custom-table {
+      margin-top: 15px;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .custom-table thead th {
+      border-top: none;
+      border-bottom: 1px solid #ddd;
+      font-weight: 500;
+      font-size: 14px;
+      color: grey;
+      background-color: #fff;
+      padding: 5px;
+    }
+
+    .custom-table tbody td {
+      font-size: 17px;
+      padding: 17px 5px;
+      vertical-align: middle;
+    }
+
+    .custom-table td.actions a {
+      margin-right: 18px;
+      font-size: 17px;
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .custom-table td.actions a:hover {
+      text-decoration: underline;
+    }
+
+    .alert {
+      font-size: 16px;
+    }
+
+    .flash-popup {
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ff5722;
+      color: #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      z-index: 9999;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      animation: fadeout 3s ease-in-out forwards;
+    }
+
+    .flash-popup.error {
+      border-left-color: #dc3545;
+    }
+
+    @keyframes fadeout {
+      0% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { opacity: 0; display: none; }
+    }
